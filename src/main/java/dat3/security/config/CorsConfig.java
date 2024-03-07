@@ -14,7 +14,8 @@ public class CorsConfig {
     private static final String[] ALLOWED_ORIGINS = new String[] {
             "*",
             "https://example.com/",
-            "http://127.0.0.1:5500"
+            "http://127.0.0.1:5500",
+            "https://gentle-pond-066b91003.4.azurestaticapps.net"
     };
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
